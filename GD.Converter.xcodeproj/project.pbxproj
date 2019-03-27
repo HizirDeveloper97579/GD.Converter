@@ -15,6 +15,7 @@
 		FABD9F99224B29240038D525 /* ChangeConstraintProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9F98224B29240038D525 /* ChangeConstraintProtocol.swift */; };
 		FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9F9A224B292D0038D525 /* ConverterProtocol.swift */; };
 		FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9F9F224B29A80038D525 /* StringProject.swift */; };
+		FABD9FA5224B29FA0038D525 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FA4224B29FA0038D525 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FABD9F98224B29240038D525 /* ChangeConstraintProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeConstraintProtocol.swift; sourceTree = "<group>"; };
 		FABD9F9A224B292D0038D525 /* ConverterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterProtocol.swift; sourceTree = "<group>"; };
 		FABD9F9F224B29A80038D525 /* StringProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringProject.swift; sourceTree = "<group>"; };
+		FABD9FA4224B29FA0038D525 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		FABD9F28224B25D70038D525 /* GD.Converter */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9FA3224B29EC0038D525 /* Alerts */,
 				FABD9F3C224B27CD0038D525 /* AppDelegate */,
 				FABD9F8F224B28BD0038D525 /* Protocols */,
 				FABD9F9E224B29980038D525 /* StringProject */,
@@ -140,6 +143,14 @@
 				FABD9F9F224B29A80038D525 /* StringProject.swift */,
 			);
 			name = StringProject;
+			sourceTree = "<group>";
+		};
+		FABD9FA3224B29EC0038D525 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				FABD9FA4224B29FA0038D525 /* Alerts.swift */,
+			);
+			path = Alerts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			files = (
 				FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */,
 				FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */,
+				FABD9FA5224B29FA0038D525 /* Alerts.swift in Sources */,
 				FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */,
 				FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */,
 				FABD9F95224B28D90038D525 /* SessionTransferData.swift in Sources */,
