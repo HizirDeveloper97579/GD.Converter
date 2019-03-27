@@ -47,6 +47,23 @@
 		FABDA090224B2E850038D525 /* Currencies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABDA08E224B2E840038D525 /* Currencies.storyboard */; };
 		FABDA091224B2E850038D525 /* CurrenciesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA08F224B2E850038D525 /* CurrenciesTableViewCell.swift */; };
 		FABDA093224B2E9A0038D525 /* CurrenciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA092224B2E9A0038D525 /* CurrenciesModel.swift */; };
+		FABDA09B224B2F740038D525 /* ConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA09A224B2F740038D525 /* ConverterModel.swift */; };
+		FABDA09D224B2FAC0038D525 /* ResultConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA09C224B2FAC0038D525 /* ResultConverter.swift */; };
+		FABDA09F224B2FDE0038D525 /* ConverterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA09E224B2FDE0038D525 /* ConverterConstraints.swift */; };
+		FABDA0A1224B300D0038D525 /* Converter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABDA0A0224B300D0038D525 /* Converter.storyboard */; };
+		FABDA0A9224B308B0038D525 /* ConverterLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0A4224B308B0038D525 /* ConverterLifeCycle.swift */; };
+		FABDA0AA224B308B0038D525 /* CurrenciesActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0A5224B308B0038D525 /* CurrenciesActions.swift */; };
+		FABDA0AB224B308B0038D525 /* ConverterNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0A6224B308B0038D525 /* ConverterNavigation.swift */; };
+		FABDA0AC224B308B0038D525 /* ConverterOutlets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0A7224B308B0038D525 /* ConverterOutlets.swift */; };
+		FABDA0B1224B30F90038D525 /* ConverterSetupFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0AE224B30F90038D525 /* ConverterSetupFunctions.swift */; };
+		FABDA0B2224B30F90038D525 /* ConverterFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0AF224B30F90038D525 /* ConverterFunction.swift */; };
+		FABDA0B3224B30F90038D525 /* ConverterFunctionsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0B0224B30F90038D525 /* ConverterFunctionsAnimation.swift */; };
+		FABDA0BF224B314D0038D525 /* iPhone5ConverterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0B6224B314C0038D525 /* iPhone5ConverterConstraints.swift */; };
+		FABDA0C0224B314D0038D525 /* iPhoneX_XSConverterConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0B7224B314C0038D525 /* iPhoneX_XSConverterConstraint.swift */; };
+		FABDA0C1224B314D0038D525 /* iPhoneXR_XMaxConverterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0B8224B314C0038D525 /* iPhoneXR_XMaxConverterConstraints.swift */; };
+		FABDA0C2224B314D0038D525 /* iPhone7ConverterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0B9224B314D0038D525 /* iPhone7ConverterConstraints.swift */; };
+		FABDA0C4224B314D0038D525 /* ChangeiPhoneConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0BB224B314D0038D525 /* ChangeiPhoneConstraints.swift */; };
+		FABDA0C5224B314D0038D525 /* iPhonePlusConverterConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA0BC224B314D0038D525 /* iPhonePlusConverterConstraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +111,23 @@
 		FABDA08E224B2E840038D525 /* Currencies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Currencies.storyboard; sourceTree = "<group>"; };
 		FABDA08F224B2E850038D525 /* CurrenciesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesTableViewCell.swift; sourceTree = "<group>"; };
 		FABDA092224B2E9A0038D525 /* CurrenciesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesModel.swift; sourceTree = "<group>"; };
+		FABDA09A224B2F740038D525 /* ConverterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterModel.swift; sourceTree = "<group>"; };
+		FABDA09C224B2FAC0038D525 /* ResultConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultConverter.swift; sourceTree = "<group>"; };
+		FABDA09E224B2FDE0038D525 /* ConverterConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterConstraints.swift; sourceTree = "<group>"; };
+		FABDA0A0224B300D0038D525 /* Converter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Converter.storyboard; sourceTree = "<group>"; };
+		FABDA0A4224B308B0038D525 /* ConverterLifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterLifeCycle.swift; sourceTree = "<group>"; };
+		FABDA0A5224B308B0038D525 /* CurrenciesActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesActions.swift; sourceTree = "<group>"; };
+		FABDA0A6224B308B0038D525 /* ConverterNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterNavigation.swift; sourceTree = "<group>"; };
+		FABDA0A7224B308B0038D525 /* ConverterOutlets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterOutlets.swift; sourceTree = "<group>"; };
+		FABDA0AE224B30F90038D525 /* ConverterSetupFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterSetupFunctions.swift; sourceTree = "<group>"; };
+		FABDA0AF224B30F90038D525 /* ConverterFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterFunction.swift; sourceTree = "<group>"; };
+		FABDA0B0224B30F90038D525 /* ConverterFunctionsAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterFunctionsAnimation.swift; sourceTree = "<group>"; };
+		FABDA0B6224B314C0038D525 /* iPhone5ConverterConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone5ConverterConstraints.swift; sourceTree = "<group>"; };
+		FABDA0B7224B314C0038D525 /* iPhoneX_XSConverterConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneX_XSConverterConstraint.swift; sourceTree = "<group>"; };
+		FABDA0B8224B314C0038D525 /* iPhoneXR_XMaxConverterConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneXR_XMaxConverterConstraints.swift; sourceTree = "<group>"; };
+		FABDA0B9224B314D0038D525 /* iPhone7ConverterConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone7ConverterConstraints.swift; sourceTree = "<group>"; };
+		FABDA0BB224B314D0038D525 /* ChangeiPhoneConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeiPhoneConstraints.swift; sourceTree = "<group>"; };
+		FABDA0BC224B314D0038D525 /* iPhonePlusConverterConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhonePlusConverterConstraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +338,7 @@
 		FABDA07A224B2D880038D525 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				FABDA094224B2F0B0038D525 /* Converter */,
 				FABDA07B224B2D8F0038D525 /* Currencies */,
 			);
 			name = MVC;
@@ -356,6 +391,86 @@
 				FABDA081224B2DFC0038D525 /* SearchBarSetup.swift */,
 			);
 			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		FABDA094224B2F0B0038D525 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA095224B2F260038D525 /* Model */,
+				FABDA097224B2F3B0038D525 /* View */,
+				FABDA096224B2F310038D525 /* Controller */,
+			);
+			name = Converter;
+			sourceTree = "<group>";
+		};
+		FABDA095224B2F260038D525 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA09A224B2F740038D525 /* ConverterModel.swift */,
+				FABDA099224B2F600038D525 /* ConstraintsModel */,
+				FABDA098224B2F4B0038D525 /* JSONModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FABDA096224B2F310038D525 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA0A4224B308B0038D525 /* ConverterLifeCycle.swift */,
+				FABDA0A6224B308B0038D525 /* ConverterNavigation.swift */,
+				FABDA0A7224B308B0038D525 /* ConverterOutlets.swift */,
+				FABDA0A5224B308B0038D525 /* CurrenciesActions.swift */,
+				FABDA0A3224B30360038D525 /* DevicesConstraints */,
+				FABDA0A2224B30220038D525 /* Functions */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FABDA097224B2F3B0038D525 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA0A0224B300D0038D525 /* Converter.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FABDA098224B2F4B0038D525 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA09C224B2FAC0038D525 /* ResultConverter.swift */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		FABDA099224B2F600038D525 /* ConstraintsModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA09E224B2FDE0038D525 /* ConverterConstraints.swift */,
+			);
+			path = ConstraintsModel;
+			sourceTree = "<group>";
+		};
+		FABDA0A2224B30220038D525 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA0AF224B30F90038D525 /* ConverterFunction.swift */,
+				FABDA0B0224B30F90038D525 /* ConverterFunctionsAnimation.swift */,
+				FABDA0AE224B30F90038D525 /* ConverterSetupFunctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		FABDA0A3224B30360038D525 /* DevicesConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				FABDA0BB224B314D0038D525 /* ChangeiPhoneConstraints.swift */,
+				FABDA0B6224B314C0038D525 /* iPhone5ConverterConstraints.swift */,
+				FABDA0B9224B314D0038D525 /* iPhone7ConverterConstraints.swift */,
+				FABDA0BC224B314D0038D525 /* iPhonePlusConverterConstraint.swift */,
+				FABDA0B7224B314C0038D525 /* iPhoneX_XSConverterConstraint.swift */,
+				FABDA0B8224B314C0038D525 /* iPhoneXR_XMaxConverterConstraints.swift */,
+			);
+			name = DevicesConstraints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABD9FEA224B2CB10038D525 /* Color.xcassets in Resources */,
+				FABDA0A1224B300D0038D525 /* Converter.storyboard in Resources */,
 				FABDA090224B2E850038D525 /* Currencies.storyboard in Resources */,
 				FABD9FEC224B2CB10038D525 /* Assets.xcassets in Resources */,
 				FABD9FED224B2CB10038D525 /* Icon.xcassets in Resources */,
@@ -457,22 +573,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABDA0C0224B314D0038D525 /* iPhoneX_XSConverterConstraint.swift in Sources */,
+				FABDA0C4224B314D0038D525 /* ChangeiPhoneConstraints.swift in Sources */,
 				FABDA082224B2DFC0038D525 /* SearchBarDelegate.swift in Sources */,
+				FABDA09B224B2F740038D525 /* ConverterModel.swift in Sources */,
 				FABDA08C224B2E510038D525 /* CurrenciesCustomTransition.swift in Sources */,
+				FABDA0C1224B314D0038D525 /* iPhoneXR_XMaxConverterConstraints.swift in Sources */,
 				FABD9FDF224B2C710038D525 /* Extension + UIActivityindicator.swift in Sources */,
 				FABDA089224B2E510038D525 /* CurrenciesTableView.swift in Sources */,
 				FABD9FCB224B2BB70038D525 /* ID.swift in Sources */,
 				FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */,
+				FABDA0B2224B30F90038D525 /* ConverterFunction.swift in Sources */,
 				FABDA08A224B2E510038D525 /* CurrenciesFunction.swift in Sources */,
 				FABD9FE4224B2C710038D525 /* Extension + UIResponder.swift in Sources */,
 				FABD9FCF224B2BE10038D525 /* LoadJSONManagers.swift in Sources */,
 				FABDA08B224B2E510038D525 /* CurrenciesActions.swift in Sources */,
 				FABD9FCD224B2BDB0038D525 /* DevicesSize.swift in Sources */,
 				FABDA08D224B2E510038D525 /* CurrenciesViewController.swift in Sources */,
+				FABDA0AC224B308B0038D525 /* ConverterOutlets.swift in Sources */,
 				FABDA093224B2E9A0038D525 /* CurrenciesModel.swift in Sources */,
 				FABD9FD1224B2BEC0038D525 /* NetworkManager.swift in Sources */,
+				FABDA0A9224B308B0038D525 /* ConverterLifeCycle.swift in Sources */,
 				FABD9FB4224B2A630038D525 /* CustomTrasition.swift in Sources */,
 				FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */,
+				FABDA0C5224B314D0038D525 /* iPhonePlusConverterConstraint.swift in Sources */,
 				FABD9FA5224B29FA0038D525 /* Alerts.swift in Sources */,
 				FABDA083224B2DFC0038D525 /* SearchBarSetup.swift in Sources */,
 				FABD9FB6224B2A630038D525 /* SupportAnimation.swift in Sources */,
@@ -483,14 +607,22 @@
 				FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */,
 				FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */,
 				FABD9FE0224B2C710038D525 /* Extension + UIViewController.swift in Sources */,
+				FABDA09D224B2FAC0038D525 /* ResultConverter.swift in Sources */,
+				FABDA09F224B2FDE0038D525 /* ConverterConstraints.swift in Sources */,
+				FABDA0C2224B314D0038D525 /* iPhone7ConverterConstraints.swift in Sources */,
 				FABD9F95224B28D90038D525 /* SessionTransferData.swift in Sources */,
+				FABDA0B1224B30F90038D525 /* ConverterSetupFunctions.swift in Sources */,
+				FABDA0BF224B314D0038D525 /* iPhone5ConverterConstraints.swift in Sources */,
 				FABD9F99224B29240038D525 /* ChangeConstraintProtocol.swift in Sources */,
 				FABD9FD3224B2C120038D525 /* API.swift in Sources */,
 				FABD9F91224B28CC0038D525 /* Session.swift in Sources */,
 				FABDA091224B2E850038D525 /* CurrenciesTableViewCell.swift in Sources */,
+				FABDA0AA224B308B0038D525 /* CurrenciesActions.swift in Sources */,
+				FABDA0AB224B308B0038D525 /* ConverterNavigation.swift in Sources */,
 				FABD9FE3224B2C710038D525 /* Exyension + UIFont.swift in Sources */,
 				FABD9FD6224B2C350038D525 /* Parameters.swift in Sources */,
 				FABD9FE1224B2C710038D525 /* Extension + UIView .swift in Sources */,
+				FABDA0B3224B30F90038D525 /* ConverterFunctionsAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
