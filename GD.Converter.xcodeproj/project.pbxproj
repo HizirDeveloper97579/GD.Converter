@@ -26,6 +26,7 @@
 		FABD9FD1224B2BEC0038D525 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD0224B2BEC0038D525 /* NetworkManager.swift */; };
 		FABD9FD3224B2C120038D525 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD2224B2C120038D525 /* API.swift */; };
 		FABD9FD6224B2C350038D525 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD5224B2C350038D525 /* Parameters.swift */; };
+		FABD9FD8224B2C520038D525 /* Typealiase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD7224B2C520038D525 /* Typealiase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		FABD9FD0224B2BEC0038D525 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FABD9FD2224B2C120038D525 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FABD9FD5224B2C350038D525 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		FABD9FD7224B2C520038D525 /* Typealiase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 		FABD9FBA224B2ACF0038D525 /* Typealiase */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9FD7224B2C520038D525 /* Typealiase.swift */,
 			);
 			path = Typealiase;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				FABD9FB6224B2A630038D525 /* SupportAnimation.swift in Sources */,
 				FABD9FB5224B2A630038D525 /* DismissedAnimation.swift in Sources */,
 				FABD9FB3224B2A630038D525 /* PresentedAnimation.swift in Sources */,
+				FABD9FD8224B2C520038D525 /* Typealiase.swift in Sources */,
 				FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */,
 				FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */,
 				FABD9F95224B28D90038D525 /* SessionTransferData.swift in Sources */,
