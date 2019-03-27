@@ -33,6 +33,10 @@
 		FABD9FE2224B2C710038D525 /* Extension + UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDC224B2C710038D525 /* Extension + UIStoryboard.swift */; };
 		FABD9FE3224B2C710038D525 /* Exyension + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDD224B2C710038D525 /* Exyension + UIFont.swift */; };
 		FABD9FE4224B2C710038D525 /* Extension + UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDE224B2C710038D525 /* Extension + UIResponder.swift */; };
+		FABD9FEA224B2CB10038D525 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD9FE6224B2CAE0038D525 /* Color.xcassets */; };
+		FABD9FEB224B2CB10038D525 /* Flag Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD9FE7224B2CB10038D525 /* Flag Icon.xcassets */; };
+		FABD9FEC224B2CB10038D525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD9FE8224B2CB10038D525 /* Assets.xcassets */; };
+		FABD9FED224B2CB10038D525 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD9FE9224B2CB10038D525 /* Icon.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		FABD9FDC224B2C710038D525 /* Extension + UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIStoryboard.swift"; sourceTree = "<group>"; };
 		FABD9FDD224B2C710038D525 /* Exyension + UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exyension + UIFont.swift"; sourceTree = "<group>"; };
 		FABD9FDE224B2C710038D525 /* Extension + UIResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIResponder.swift"; sourceTree = "<group>"; };
+		FABD9FE6224B2CAE0038D525 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		FABD9FE7224B2CB10038D525 /* Flag Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Flag Icon.xcassets"; sourceTree = "<group>"; };
+		FABD9FE8224B2CB10038D525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABD9FE9224B2CB10038D525 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 		FABD9F28224B25D70038D525 /* GD.Converter */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9FE5224B2C9A0038D525 /* Resource */,
 				FABD9F3C224B27CD0038D525 /* AppDelegate */,
 				FABD9FAE224B2A560038D525 /* CustomTransition */,
 				FABD9F8F224B28BD0038D525 /* Protocols */,
@@ -260,6 +269,17 @@
 			path = Parameters;
 			sourceTree = "<group>";
 		};
+		FABD9FE5224B2C9A0038D525 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FABD9FE8224B2CB10038D525 /* Assets.xcassets */,
+				FABD9FE6224B2CAE0038D525 /* Color.xcassets */,
+				FABD9FE7224B2CB10038D525 /* Flag Icon.xcassets */,
+				FABD9FE9224B2CB10038D525 /* Icon.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD9FEA224B2CB10038D525 /* Color.xcassets in Resources */,
+				FABD9FEC224B2CB10038D525 /* Assets.xcassets in Resources */,
+				FABD9FED224B2CB10038D525 /* Icon.xcassets in Resources */,
+				FABD9FEB224B2CB10038D525 /* Flag Icon.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
