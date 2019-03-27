@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09B296B97AE622E6261FC38A /* libPods-GD.Converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C431799AF410EBD21AC7B86A /* libPods-GD.Converter.a */; };
+		FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9F3D224B27CD0038D525 /* AppDelegateFunctions.swift */; };
+		FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9F3E224B27CD0038D525 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		D223B2E2986FCF1603EB5ED5 /* Pods-GD.Converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GD.Converter.release.xcconfig"; path = "Target Support Files/Pods-GD.Converter/Pods-GD.Converter.release.xcconfig"; sourceTree = "<group>"; };
 		FABD9F26224B25D70038D525 /* GD.Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GD.Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABD9F35224B25D70038D525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABD9F3D224B27CD0038D525 /* AppDelegateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateFunctions.swift; sourceTree = "<group>"; };
+		FABD9F3E224B27CD0038D525 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,6 @@
 				6BD53AD6613AFCAE5D5E1B22 /* Pods-GD.Converter.debug.xcconfig */,
 				D223B2E2986FCF1603EB5ED5 /* Pods-GD.Converter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,7 @@
 		FABD9F28224B25D70038D525 /* GD.Converter */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9F3C224B27CD0038D525 /* AppDelegate */,
 				FABD9F3B224B25F80038D525 /* INfo-PList */,
 			);
 			path = GD.Converter;
@@ -80,6 +84,15 @@
 				FABD9F35224B25D70038D525 /* Info.plist */,
 			);
 			path = "INfo-PList";
+			sourceTree = "<group>";
+		};
+		FABD9F3C224B27CD0038D525 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FABD9F3D224B27CD0038D525 /* AppDelegateFunctions.swift */,
+				FABD9F3E224B27CD0038D525 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */,
+				FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
