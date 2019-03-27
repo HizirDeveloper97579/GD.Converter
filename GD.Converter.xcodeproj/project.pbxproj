@@ -27,6 +27,12 @@
 		FABD9FD3224B2C120038D525 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD2224B2C120038D525 /* API.swift */; };
 		FABD9FD6224B2C350038D525 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD5224B2C350038D525 /* Parameters.swift */; };
 		FABD9FD8224B2C520038D525 /* Typealiase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD7224B2C520038D525 /* Typealiase.swift */; };
+		FABD9FDF224B2C710038D525 /* Extension + UIActivityindicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD9224B2C700038D525 /* Extension + UIActivityindicator.swift */; };
+		FABD9FE0224B2C710038D525 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDA224B2C700038D525 /* Extension + UIViewController.swift */; };
+		FABD9FE1224B2C710038D525 /* Extension + UIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDB224B2C700038D525 /* Extension + UIView .swift */; };
+		FABD9FE2224B2C710038D525 /* Extension + UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDC224B2C710038D525 /* Extension + UIStoryboard.swift */; };
+		FABD9FE3224B2C710038D525 /* Exyension + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDD224B2C710038D525 /* Exyension + UIFont.swift */; };
+		FABD9FE4224B2C710038D525 /* Extension + UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FDE224B2C710038D525 /* Extension + UIResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +60,12 @@
 		FABD9FD2224B2C120038D525 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FABD9FD5224B2C350038D525 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		FABD9FD7224B2C520038D525 /* Typealiase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiase.swift; sourceTree = "<group>"; };
+		FABD9FD9224B2C700038D525 /* Extension + UIActivityindicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIActivityindicator.swift"; sourceTree = "<group>"; };
+		FABD9FDA224B2C700038D525 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		FABD9FDB224B2C700038D525 /* Extension + UIView .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIView .swift"; sourceTree = "<group>"; };
+		FABD9FDC224B2C710038D525 /* Extension + UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIStoryboard.swift"; sourceTree = "<group>"; };
+		FABD9FDD224B2C710038D525 /* Exyension + UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exyension + UIFont.swift"; sourceTree = "<group>"; };
+		FABD9FDE224B2C710038D525 /* Extension + UIResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIResponder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +242,12 @@
 		FABD9FBB224B2AD70038D525 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9FDC224B2C710038D525 /* Extension + UIStoryboard.swift */,
+				FABD9FDE224B2C710038D525 /* Extension + UIResponder.swift */,
+				FABD9FDB224B2C700038D525 /* Extension + UIView .swift */,
+				FABD9FDA224B2C700038D525 /* Extension + UIViewController.swift */,
+				FABD9FDD224B2C710038D525 /* Exyension + UIFont.swift */,
+				FABD9FD9224B2C700038D525 /* Extension + UIActivityindicator.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -336,8 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD9FDF224B2C710038D525 /* Extension + UIActivityindicator.swift in Sources */,
 				FABD9FCB224B2BB70038D525 /* ID.swift in Sources */,
 				FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */,
+				FABD9FE4224B2C710038D525 /* Extension + UIResponder.swift in Sources */,
 				FABD9FCF224B2BE10038D525 /* LoadJSONManagers.swift in Sources */,
 				FABD9FCD224B2BDB0038D525 /* DevicesSize.swift in Sources */,
 				FABD9FD1224B2BEC0038D525 /* NetworkManager.swift in Sources */,
@@ -345,16 +365,20 @@
 				FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */,
 				FABD9FA5224B29FA0038D525 /* Alerts.swift in Sources */,
 				FABD9FB6224B2A630038D525 /* SupportAnimation.swift in Sources */,
+				FABD9FE2224B2C710038D525 /* Extension + UIStoryboard.swift in Sources */,
 				FABD9FB5224B2A630038D525 /* DismissedAnimation.swift in Sources */,
 				FABD9FB3224B2A630038D525 /* PresentedAnimation.swift in Sources */,
 				FABD9FD8224B2C520038D525 /* Typealiase.swift in Sources */,
 				FABD9F40224B27CD0038D525 /* AppDelegate.swift in Sources */,
 				FABD9F3F224B27CD0038D525 /* AppDelegateFunctions.swift in Sources */,
+				FABD9FE0224B2C710038D525 /* Extension + UIViewController.swift in Sources */,
 				FABD9F95224B28D90038D525 /* SessionTransferData.swift in Sources */,
 				FABD9F99224B29240038D525 /* ChangeConstraintProtocol.swift in Sources */,
 				FABD9FD3224B2C120038D525 /* API.swift in Sources */,
 				FABD9F91224B28CC0038D525 /* Session.swift in Sources */,
+				FABD9FE3224B2C710038D525 /* Exyension + UIFont.swift in Sources */,
 				FABD9FD6224B2C350038D525 /* Parameters.swift in Sources */,
+				FABD9FE1224B2C710038D525 /* Extension + UIView .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
