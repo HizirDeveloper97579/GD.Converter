@@ -20,6 +20,7 @@
 		FABD9FB4224B2A630038D525 /* CustomTrasition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FB0224B2A620038D525 /* CustomTrasition.swift */; };
 		FABD9FB5224B2A630038D525 /* DismissedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FB1224B2A630038D525 /* DismissedAnimation.swift */; };
 		FABD9FB6224B2A630038D525 /* SupportAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FB2224B2A630038D525 /* SupportAnimation.swift */; };
+		FABD9FCB224B2BB70038D525 /* ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FCA224B2BB70038D525 /* ID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FABD9FB0224B2A620038D525 /* CustomTrasition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTrasition.swift; sourceTree = "<group>"; };
 		FABD9FB1224B2A630038D525 /* DismissedAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissedAnimation.swift; sourceTree = "<group>"; };
 		FABD9FB2224B2A630038D525 /* SupportAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportAnimation.swift; sourceTree = "<group>"; };
+		FABD9FCA224B2BB70038D525 /* ID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +95,15 @@
 			isa = PBXGroup;
 			children = (
 				FABD9F3C224B27CD0038D525 /* AppDelegate */,
+				FABD9FAE224B2A560038D525 /* CustomTransition */,
 				FABD9F8F224B28BD0038D525 /* Protocols */,
 				FABD9F9E224B29980038D525 /* StringProject */,
 				FABD9FA3224B29EC0038D525 /* Alerts */,
-				FABD9FAE224B2A560038D525 /* CustomTransition */,
+				FABD9FB7224B2AAA0038D525 /* ID */,
+				FABD9FB8224B2ABA0038D525 /* Managers */,
+				FABD9FBA224B2ACF0038D525 /* Typealiase */,
+				FABD9FBB224B2AD70038D525 /* Extension */,
+				FABD9FB9224B2AC70038D525 /* API */,
 				FABD9F3B224B25F80038D525 /* INfo-PList */,
 			);
 			path = GD.Converter;
@@ -171,6 +178,42 @@
 				FABD9FB2224B2A630038D525 /* SupportAnimation.swift */,
 			);
 			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		FABD9FB7224B2AAA0038D525 /* ID */ = {
+			isa = PBXGroup;
+			children = (
+				FABD9FCA224B2BB70038D525 /* ID.swift */,
+			);
+			path = ID;
+			sourceTree = "<group>";
+		};
+		FABD9FB8224B2ABA0038D525 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		FABD9FB9224B2AC70038D525 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		FABD9FBA224B2ACF0038D525 /* Typealiase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Typealiase;
+			sourceTree = "<group>";
+		};
+		FABD9FBB224B2AD70038D525 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD9FCB224B2BB70038D525 /* ID.swift in Sources */,
 				FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */,
 				FABD9FB4224B2A630038D525 /* CustomTrasition.swift in Sources */,
 				FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */,
