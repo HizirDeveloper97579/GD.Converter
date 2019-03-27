@@ -21,6 +21,9 @@
 		FABD9FB5224B2A630038D525 /* DismissedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FB1224B2A630038D525 /* DismissedAnimation.swift */; };
 		FABD9FB6224B2A630038D525 /* SupportAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FB2224B2A630038D525 /* SupportAnimation.swift */; };
 		FABD9FCB224B2BB70038D525 /* ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FCA224B2BB70038D525 /* ID.swift */; };
+		FABD9FCD224B2BDB0038D525 /* DevicesSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FCC224B2BDB0038D525 /* DevicesSize.swift */; };
+		FABD9FCF224B2BE10038D525 /* LoadJSONManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FCE224B2BE10038D525 /* LoadJSONManagers.swift */; };
+		FABD9FD1224B2BEC0038D525 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD9FD0224B2BEC0038D525 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		FABD9FB1224B2A630038D525 /* DismissedAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissedAnimation.swift; sourceTree = "<group>"; };
 		FABD9FB2224B2A630038D525 /* SupportAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportAnimation.swift; sourceTree = "<group>"; };
 		FABD9FCA224B2BB70038D525 /* ID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ID.swift; sourceTree = "<group>"; };
+		FABD9FCC224B2BDB0038D525 /* DevicesSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesSize.swift; sourceTree = "<group>"; };
+		FABD9FCE224B2BE10038D525 /* LoadJSONManagers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadJSONManagers.swift; sourceTree = "<group>"; };
+		FABD9FD0224B2BEC0038D525 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,9 @@
 		FABD9FB8224B2ABA0038D525 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FABD9FCC224B2BDB0038D525 /* DevicesSize.swift */,
+				FABD9FCE224B2BE10038D525 /* LoadJSONManagers.swift */,
+				FABD9FD0224B2BEC0038D525 /* NetworkManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -312,6 +321,9 @@
 			files = (
 				FABD9FCB224B2BB70038D525 /* ID.swift in Sources */,
 				FABD9FA0224B29A80038D525 /* StringProject.swift in Sources */,
+				FABD9FCF224B2BE10038D525 /* LoadJSONManagers.swift in Sources */,
+				FABD9FCD224B2BDB0038D525 /* DevicesSize.swift in Sources */,
+				FABD9FD1224B2BEC0038D525 /* NetworkManager.swift in Sources */,
 				FABD9FB4224B2A630038D525 /* CustomTrasition.swift in Sources */,
 				FABD9F9B224B292D0038D525 /* ConverterProtocol.swift in Sources */,
 				FABD9FA5224B29FA0038D525 /* Alerts.swift in Sources */,
