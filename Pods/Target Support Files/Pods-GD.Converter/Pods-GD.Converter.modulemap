@@ -1,0 +1,6 @@
+module Pods_GD_Converter {
+  umbrella header "Pods-GD.Converter-umbrella.h"
+
+  export *
+  module * { export * }
+}

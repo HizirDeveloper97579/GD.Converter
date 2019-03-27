@@ -1,0 +1,1 @@
+/Users/macbook/Library/Mobile Documents/com~apple~CloudDocs/-=SWIFT=-/GD.Converter/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
